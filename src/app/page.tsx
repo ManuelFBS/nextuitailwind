@@ -1,6 +1,4 @@
-import Input from '@/components/ui/Input';
-import Label from '@/components/ui/Label';
-import Button from '@/components/ui/Button';
+import { Button, Input, Label } from '@/components/ui';
 
 export default function Example() {
   return (
