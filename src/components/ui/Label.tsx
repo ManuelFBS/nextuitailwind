@@ -1,10 +1,7 @@
 interface Props
   extends React.LabelHTMLAttributes<HTMLLabelElement> {}
 
-export default function Label({
-  children,
-  ...props
-}: Props) {
+export function Label({ children, ...props }: Props) {
   return (
     <label
       className="block text-sm font-bold leading-6 text-gray-700"
