@@ -23,7 +23,7 @@ export default function Example() {
           method="POST"
         >
           <div>
-            <Label htmlFor="name">Names</Label>
+            <Label htmlFor="names">Names</Label>
             <div className="mt-2">
               <Input
                 id="names"
